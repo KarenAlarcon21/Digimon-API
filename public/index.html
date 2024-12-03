@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digimons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .digimon-card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .digimon-card img {
+      width: 100px;
+      height: auto;
+      margin-right: 20px;
+    }
+    .digimon-info {
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lista de Digimons</h1>
+  <div id="digimons-container"></div>
+
+  <script>
+    // Función para obtener los Digimons desde la API
+    fetch('http://localhost:3000/digimons')
+      .then(response => response.json())
+      .then(digimons => {
+        const container = document.getElementById('digimons-container');
+        digimons.forEach(digimon => {
+          // Crear una tarjeta para cada Digimon
+          const digimonCard = document.createElement('div');
+          digimonCard.classList.add('digimon-card');
+          
+          // Crear imagen
+          const img = document.createElement('img');
+          img.src = digimon.image; // Usar la URL de la imagen desde el JSON
+          img.alt = digimon.name;
+
+          // Crear la información del Digimon
+          const info = document.createElement('div');
+          info.classList.add('digimon-info');
+          info.innerHTML = `
+            <h3>${digimon.name}</h3>
+            <p><b>Tipo:</b> ${digimon.type}</p>
+            <p><b>Nivel:</b> ${digimon.level}</p>
+            <p><b>Atributos:</b> ${digimon.atributos}</p>
+            <p><b>Familia:</b> ${digimon.familia}</p>
+          `;
+          
+          // Agregar la imagen y la información a la tarjeta
+          digimonCard.appendChild(img);
+          digimonCard.appendChild(info);
+          
+          // Agregar la tarjeta al contenedor
+          container.appendChild(digimonCard);
+        });
+      })
+      .catch(error => console.error('Error al cargar los Digimons:', error));
+  </script>
+</body>
+</html>

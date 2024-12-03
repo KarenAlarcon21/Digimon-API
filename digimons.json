@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Agumon",
+    "type": "Reptil",
+    "level": "Rookie",
+    "atributos": "Vacuna" ,
+    "familia": "Espíritus de la Naturaleza - Cazadores de Virus",
+    "image": "/images/agumon.png"
+  },
+  {
+    "id": 2,
+    "name": "Gabumon",
+    "type": "Reptil - Lobo",
+    "level": "Rookie",
+    "atributos": "Data - Vacuna",
+    "familia": "Espíritus de la Naturaleza - Cazadores de Virus",
+    "image": "/images/Gabumon.jfif"
+  },
+  {
+    "id": 3,
+    "name": "Biyomon",
+    "type": "Ave",
+    "level": "Rookie",
+    "atributos": "Vacuna",
+    "familia": "Espíritus de la Naturaleza Guardianes del Viento",
+    "image": "/images/Biyomon.png"
+  },
+  {
+    "id": 4,
+    "name": "Tentomon",
+    "type": "Insecto",
+    "level": "Rookie",
+    "atributos": "Vacuna - Virus",
+    "familia": "Espíritus de la Naturaleza - Imperio de Metal",
+    "image": "/images/Tentomon.png"
+  },
+  {
+    "id": 5,
+    "name": "Palmon",
+    "type": "Planta",
+    "level": "Rookie",
+    "atributos": "Vacuna - Data",
+    "familia": "Espíritus de la Naturaleza - Guardianes del viento",
+    "image": "/images/Palmon.jfif"
+  },
+  {
+    "id": 6,
+    "name": "Gomamon",
+    "type": "Animal del mar",
+    "level": "Rookie",
+    "atributos": "Vacuna",
+    "familia": "Salvador de las Profundidades",
+    "image": "/images/Gomamon.jfif"
+  },
+  {
+    "id": 7,
+    "name": "Veemon",
+    "type": "Dragón",
+    "level": "Rookie",
+    "atributos": "Vacuna - Libre",
+    "familia": "Espíritus de la Naturaleza - Rugido del Dragón",
+    "image": "/images/Vemmon.jfif"
+  },
+  {
+    "id": 8,
+    "name": "Gabumon (X)",
+    "type": "Bestia",
+    "level": "Rookie",
+    "atributos": "Data",
+    "familia": "Espíritus de la Naturaleza - Imperio de Metal",
+    "image": "/images/Gabumon_x.jfif"
+  },
+  {
+    "id": 9,
+    "name": "Patamon",
+    "type": "Mamífero",
+    "level": "Rookie",
+    "atributos": "Data - Vacuna - Libre",
+    "familia": "Espíritus de la Naturaleza - Cazadores de Virus",
+    "image": "/images/Patamon.png"
+  },
+  {
+    "id": 10,
+    "name": "Elecmon",
+    "type": "Mamífero",
+    "level": "Rookie",
+    "atributos": "Data",
+    "familia": "Espíritus de la Naturaleza - Salvador de las Profundidades",
+    "image": "/images/Elecmon.jfif"
+  },
+  {
+    "id": 11,
+    "name": "Agumon (Black)",
+    "type": "Reptil",
+    "level": "Rookie",
+    "atributos": "Virus",
+    "familia": "Espíritus de la Naturaleza",
+    "image": "/images/Agumon_black.jfif"
+  },
+  {
+    "id": 12,
+    "name": "Wormmon",
+    "type": "Larva",
+    "level": "Rookie",
+    "atributos": "Libre - Virus - Vacuna",
+    "familia": "Espíritus de la Naturaleza - Tropas de la Jungla",
+    "image": "/images/Wormmon.jfif"
+  },
+  {
+    "id": 13,
+    "name": "Armadillomon",
+    "type": "Mamífero",
+    "level": "Rookie",
+    "atributos": "Vacuna - Libre",
+    "familia": "Espíritus de la Naturaleza",
+    "image": "/images/Armadillomon.jfif"
+  },
+  {
+    "id": 14,
+    "name": "Lopmon",
+    "type": "Bestia",
+    "level": "Rookie",
+    "atributos": "Data",
+    "familia": "Espíritus de la Naturaleza",
+    "image": "/images/Lopmon.png"
+  },
+  {
+    "id": 15,
+    "name": "Digmon",
+    "type": "Insecto",
+    "level": "Champion",
+    "atributos": "Vacuna - Libre",
+    "familia": "Espíritus de la Naturaleza - Tropas de la Jungla",
+    "image": "/images/Digmon.jfif"
+  },
+  {
+    "id": 16,
+    "name": "Greymon",
+    "type": "Dinosaurio",
+    "level": "Champion",
+    "atributos": "Vacuna",
+    "familia": "Espíritus de la Naturaleza - Rugido del Dragón",
+    "image": "/images/Greymon.jfif"
+  },
+  {
+    "id": 17,
+    "name": "Gatomon / Tailmon",
+    "type": "Bestia Sagrada",
+    "level": "Adulto",
+    "atributos": "Vacuna - Libre",
+    "familia": "Espíritus de la Naturaleza - Cazadores de Virus",
+    "image": "/images/Gatomon.png"
+  },
+  {
+    "id": 18,
+    "name": "Flamedramon",
+    "type": "Dragón Humanoide",
+    "level": "Champion",
+    "atributos": "Data - Vacuna - Libre",
+    "familia": "Espíritus de la Naturaleza - Soldado de Pesadilla",
+    "image": "/images/Flamedramon.png"
+  },
+  {
+    "id": 19,
+    "name": "Veedramon",
+    "type": "Dragón Mítico",
+    "level": "Champion",
+    "atributos": "Vacuna",
+    "familia": "Espíritus de la Naturaleza - Cazadores de Virus",
+    "image": "/images/Veedramon.jfif"
+  },
+  {
+    "id": 20,
+    "name": "Terriermon",
+    "type": "Bestia",
+    "level": "Rookie",
+    "atributos": "Vacuna - Data" ,
+    "familia": "Espíritus de la Naturaleza - Cazadores de Virus",
+    "image": "/images/Terriermon.jfif"
+  }
+]
